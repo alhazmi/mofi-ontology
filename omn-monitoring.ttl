@@ -58,6 +58,8 @@
 
 :isMeasurementMetricOf rdf:type owl:ObjectProperty ;
 
+                       rdfs:comment "Is a measurement metric of any observed object, e.g. resource, component or service"^^xsd:string ;
+
                        owl:inverseOf :hasMeasurementMetric ;
               
                        rdfs:domain :Metric ;
@@ -85,6 +87,18 @@
                                                   omn:Service
                                                 )
                                   ] .
+
+
+
+###  http://open-multinet.info/ontology/omn-monitoring#isMeasurementOf
+
+:isMeasurementOf rdf:type owl:ObjectProperty ;
+                    
+                 rdfs:comment "Defines the relation between a measurement and a metric"^^xsd:string ;
+                    
+                 rdfs:domain :Measurement ;
+                    
+                 rdfs:range :Metric .
 
 
 

@@ -74,35 +74,6 @@
 
 
 
-###  http://open-multinet.info/ontology/omn-monitoring-data#isMeasurementOf
-
-:isMeasurementOf rdf:type owl:ObjectProperty ;
-                    
-                 rdfs:comment "Defines the relation between a measurement and a metric"^^xsd:string ;
-                    
-                 rdfs:domain :Measurement ;
-                    
-                 rdfs:range omn-monitoring:Metric .
-
-
-
-###  http://open-multinet.info/ontology/omn-monitoring-data#isMeasurementMetricOf
-
-:isMeasurementMetricOf rdf:type owl:ObjectProperty ;
-                    
-                       rdfs:comment "Is a measurement metric of any observed object, e.g. resource, component or service"^^xsd:string ;
-                    
-                       rdfs:domain omn-monitoring:Metric ;
-                    
-                       rdfs:range [ rdf:type owl:Class ;
-                                             owl:unionOf ( omn:Resource
-                                                           omn:Component
-                                                           omn:Service
-                                                         )
-                                  ] .
-
-
-
 ###  http://open-multinet.info/ontology/omn-monitoring-data#isMeasuredIn
 
 :isMeasuredIn rdf:type owl:ObjectProperty ;
