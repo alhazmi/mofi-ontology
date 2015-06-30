@@ -41,7 +41,7 @@
                                                            dc:creator <https://www.linkedin.com/in/yahyaalhazmi> ;
                                                            
                                                            dc:author <https://www.linkedin.com/in/yahyaalhazmi> ;
-
+                                                           
                                                            dc:contributor <http://alex.willner.ws/about#me> ;
                                                            dc:contributor <mailto:jorge.lopez_vergara@uam.es> ;
                                                            dc:contributor <mailto:steger@complex.elte.hu> ;
@@ -498,6 +498,14 @@ omn-monitoring:Tool rdf:type owl:Class .
 :PacketArrivalRate rdf:type owl:Class ;
                    
                    rdfs:subClassOf omn-monitoring:Metric .
+
+
+
+###  http://open-multinet.info/ontology/omn-monitoring-metric#PacketLoss
+
+:PacketLoss rdf:type owl:Class ;
+                   
+            rdfs:subClassOf omn-monitoring:Metric .
 
 
 
