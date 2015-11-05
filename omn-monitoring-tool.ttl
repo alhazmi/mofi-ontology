@@ -102,9 +102,9 @@
 
 
 
-###  http://open-multinet.info/ontology/omn-monitoring-tool#reportesDataAbout
+###  http://open-multinet.info/ontology/omn-monitoring-tool#reportsDataAbout
 
-:reportesDataAbout rdf:type owl:ObjectProperty ;
+:reportsDataAbout rdf:type owl:ObjectProperty ;
                        
                    rdfs:comment "Reports data about particular domain or resource."^^xsd:string ;
                        
