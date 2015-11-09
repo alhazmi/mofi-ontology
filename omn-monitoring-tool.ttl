@@ -203,7 +203,7 @@ omn-monitoring:Tool rdf:type owl:Class .
 
 
 
-###  http://open-multinet.info/ontology/omn-monitoring-tool#Converter
+###  http://open-multinet.info/ontology/omn-monitoring-tool#Adapter
 
 :Adapter rdf:type owl:Class ;
 
