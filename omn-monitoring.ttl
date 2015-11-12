@@ -21,7 +21,7 @@
                                                     
                                                     dc:title "Open-Multinet Monitoring Upper Ontology"^^xsd:string ;
                                                     
-                                                    dc:description "This ontology includes the main monitoring concepts and relations.”^^xsd:string ;
+                                                    dc:description "This ontology includes the main monitoring concepts and relations."^^xsd:string ;
                                                     
                                                     vann:preferredNamespaceUri "http://open-multinet.info/ontology/omn-monitoring#" ;
                                                     
